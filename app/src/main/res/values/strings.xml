@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Android-Fitness-Application</string>
+    <string name="title_activity_options">OptionsActivity</string>
+    <string name="title_activity_free_trail">FreeTrailActivity</string>
+    <string name="title_activity_predefined_route">PredefinedRouteActivity</string>
 </resources>
