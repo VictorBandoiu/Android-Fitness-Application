@@ -23,10 +23,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.logout:
                 log=1;
-                i = new Intent(this, LogIn.class);
-                startActivityForResult(i, 1);
+                /*i = new Intent(this, LogIn.class);
+                startActivityForResult(i, 1);*/
+                this.finish();
                 break;
-
+            case R.id.button:
+                Intent j = new Intent(this, FreeTrailActivity.class);
+                startActivityForResult(j, 1);
+                break;
+            case R.id.button2:
+                Intent k = new Intent(this, PredefinedRouteActivity.class);
+                startActivityForResult(k, 1);
+                break;
     }
 
 
