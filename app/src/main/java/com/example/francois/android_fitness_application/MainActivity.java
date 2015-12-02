@@ -7,7 +7,8 @@ import android.view.View;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-//dummy change
+//dummy chang
+    public static int log;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +21,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent i = new Intent(this, OptionsActivity.class);
                 startActivityForResult(i, 1);
                 break;
+            case R.id.logout:
+                log=1;
+                i = new Intent(this, LogIn.class);
+                startActivityForResult(i, 1);
+                break;
 
     }
 }
+
 }
