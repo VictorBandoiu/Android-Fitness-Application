@@ -38,6 +38,8 @@ public class Path {
     public int numberOfPoints(){
         return locations.size();
     }
+
+    //END
     public float duration(){
         float duration = 0;
         Date start = locations.getFirst().timestamp;
